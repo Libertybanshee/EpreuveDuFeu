@@ -1,2 +1,2 @@
 # EpreuveDuFeu
-Epreuve du eu de coding accelerator
+Epreuve du feu de coding accelerator
