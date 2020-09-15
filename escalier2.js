@@ -1,4 +1,7 @@
-const [nd,file , nb] = process.argv;
+const arg = process.argv[2]; 
+/* fonctionne aussi en désignais 
+const [nd, file, nb] = process.argv;
+*/ 
 
 function scale(x) {
     let i = 0; 
@@ -11,4 +14,4 @@ function scale(x) {
     }
 }
 
-scale(nb);
+scale(arg);

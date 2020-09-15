@@ -3,7 +3,6 @@ var tab = arg.split('');
 let res = "";
 let j = 0;
 
-
 for (i = 0; i < arg.length; i++){
   if (tab[i] != " ") {
     j += 1;
