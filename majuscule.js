@@ -7,9 +7,11 @@ for (i = 0; i < arg.length; i++){
   if (tab[i] != " ") {
     j += 1;
     if ( j % 2 == 0) {
-      res += tab[i].toLowerCase();}
+      res += tab[i].toLowerCase();
+      }
     else {
-      res += tab[i].toUpperCase();}
+      res += tab[i].toUpperCase();
+      }
     }
   else {
     res += " ";
