@@ -1,14 +1,14 @@
-const nb = process.argv[2];
+const nMarche = process.argv[2];
 
-function scale(x) {
+function Escalier(x) {
     i = 0;
     while (i < x) {
         space = x - i;
         diese = i + 1;
-        marcheT = " ".repeat(space) + "#".repeat(diese);
-        console.log(marcheT);
+        construction = " ".repeat(space) + "#".repeat(diese);
+        console.log(construction);
         i++;
     }
-};
+}
 
-scale(nb);
+Escalier(nMarche);
