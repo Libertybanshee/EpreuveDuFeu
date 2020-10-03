@@ -1,12 +1,12 @@
-const nMarche = process.argv[2];
+const Arg = process.argv[2];
 
-function MakerMarche (x) {
-    for (i = 0; i < x; i++) {
+function marcheMaker(x) {
+    for (i = 0; i < x; i++ ){
         space = x - i;
         diese = i + 1;
-        Calcul = " ".repeat(space) + "#".repeat(diese);
-        console.log(Calcul);
+        calcule = " ".repeat(space) + "#".repeat(diese);
+        console.log(calcule);
     }
 }
 
-MakerMarche (nMarche);
+marcheMaker(Arg);
