@@ -1,21 +1,21 @@
 const Arg = process.argv[2];
 var Lettre = Arg.split('');
-let res = "";
+let Print = "";
 let j = 0;
 
-for (i=0; i < Lettre.length; i++) {
-    if (Lettre[i] != " "){  
-        j++;
+for (i=0; i < Arg.length; i++) {
+    j++;
+    if (Lettre[i] != " ") {
         if (j % 2 == 0) {
-            res += Lettre[i].toLowerCase();
-            }
-        else {
-            res += Lettre[i].toUpperCase();
-            }
+            Print += Lettre[i].toLowerCase();
         }
-    else { 
-        res += " ";
+        else {
+            Print += Lettre[i].toUpperCase();
+        }
+    }
+    else {
+        Print += " ";
     }
 }
 
-console.log(res);
+console.log(Print);
