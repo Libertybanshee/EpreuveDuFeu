@@ -5,17 +5,17 @@ let j = 0;
 
 for (i=0; i < Arg.length; i++) {
     j++;
-    if (Lettre[i] != " ") {
+    if (Lettre[i] != " "){
         if (j % 2 == 0) {
-            Print += Lettre[i].toUpperCase();
+            Print += Lettre[i].toLowerCase();
         }
         else {
-            Print += Lettre[i].toLowerCase();
+            Print += Lettre[i].toUpperCase();
         }
     }
     else {
         Print += " ";
     }
-};
+}
 
 console.log(Print);
