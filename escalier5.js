@@ -1,9 +1,8 @@
-
 const Arg = process.argv[2];
 
-for (i=0; i < Arg; i++){
-    Diese = i + 1;
-    Space = Arg - i;
-    MarcheMaker = " ".repeat(Space) + "#".repeat(Diese);
+for(i=0; i < Arg; i++){
+    diese = i + 1;
+    space = Arg - i;
+    MarcheMaker = " ".repeat(space) + "#".repeat(diese);
     console.log(MarcheMaker);
 }
