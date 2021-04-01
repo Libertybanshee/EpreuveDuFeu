@@ -1,12 +1,7 @@
-function tri(myArg) {
+var Tri = process.argv.slice(2);
   
-  myArg.sort( function(a, b) {
-    return b - a
-    } );
+Tri.sort(function (a, b){
+  return b - a
+  });
 
-  myArg = myArg.join(" ");
-  console.log(myArg);
-  };
-
-var myArg = process.argv.slice(2);
-tri(myArg) ;
+console.log(Tri.join(" "));
