@@ -1,14 +1,18 @@
-var test = "#", temp = "empty", esca = process.argv[2]
-for (let CPT = 0; CPT < esca; CPT++){
-        temp = test
+const Nb = process.argv[2];
+var Diese = "#";
+var Marche = "";
+
+for (let i = 0; i < Nb; i++){
+        Marche = Diese
         
     do {
-        if (test.length == esca) {
-            test = test
+        if (Diese.length == Nb) {
+            Diese = Diese
         } else {
-        test = " " + test
+        Diese = " " + Diese
         }
-    } while ( test.length  < esca );
-    console.log (test);
-    test = temp + "#"
+    } while ( Diese.length  < Nb );
+
+console.log (Diese);
+Diese = Marche + "#"
 }
