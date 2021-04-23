@@ -18,4 +18,5 @@ function maj(myArgs) {
     console.log(strFinal.charAt(0).toLowerCase() + strFinal.slice(1));
     
     }
-    console.log(maj());
+    
+console.log(maj());
