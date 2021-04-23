@@ -1,7 +1,7 @@
-var Tri = process.argv.slice(2);
-  
-Tri.sort(function (a, b){
-  return b - a
-  });
+const Arg = process.argv.slice(2);
 
-console.log(Tri.join(" "));
+Arg.sort(function (a, b){
+  return b - a;
+})
+
+console.log(Arg.join(" "));
